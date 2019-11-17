@@ -12,9 +12,46 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
 
-  /*
-   * CSS image reference example.
-   */
-  background-image: url('images/bg-pattern.png');
+img{
+  display: block;
+  max-width: 100%;
+}
+.grid {
+  min-width: 1200px;
+}
+.grid-sizer,
+.grid-item {
+  width: 33.3333%;
+  /* margin-bottom: 10px; */
+}
+
+
+.form-wrapper {
+  text-align: center;
+}
+.input{
+  margin: 10px;
+  font-size: 18px;
+  width: 400px;
+  height: 40px;
+  background-color: rgb(226, 218, 218);
+  color: rgb(0, 70, 131);
+  border: 1px solid #a19797; 
+   border-radius: 3px;
+}
+/* Form css */
+.submit-button {
+  cursor: pointer;
+  font-size: 18px;
+  height: 40px;
+  background-color: rgb(226, 218, 218);
+  color: rgb(85, 159, 224);
+  border: 1px solid #a19797; 
+   border-radius: 3px;
+   transition: .3s;
+}
+.submit-button:hover {
+  transform: scale(1.1)
 }
